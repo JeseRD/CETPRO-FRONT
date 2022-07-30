@@ -21,7 +21,9 @@ h1 {
     font-size: 4rem;
 }
 h2 {
-
+    font-family: 'Staatliches', Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color:#5123f5;
+    font-size: 2.4rem;
 }
 h3 {
     font-family: 'Staatliches', cursive;

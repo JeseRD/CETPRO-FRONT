@@ -28,11 +28,10 @@ const Mentorizados = ({mentorizados}) => {
                                         </h3>
                                     </div>
 
+                                    <h2  className="mb-3">Especialidad: </h2>
+
                                     <p className="mb-0">
-                                        Especialidad: {mentorizado.perfiles[0]}
-                                    </p>
-                                    <p className="mb-0">
-                                        {mentorizado.perfiles[1]}
+                                        {mentorizado.perfiles[0]}
                                     </p>
                                     <p className="mb-0">
                                         {mentorizado.perfiles[2]}
