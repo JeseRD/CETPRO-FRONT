@@ -29,7 +29,7 @@ const Mentorizados = ({mentorizados}) => {
                                     </div>
 
                                     <p className="mb-0">
-                                        {mentorizado.perfiles[0]}
+                                        Especialidad: {mentorizado.perfiles[0]}
                                     </p>
                                     <p className="mb-0">
                                         {mentorizado.perfiles[1]}
