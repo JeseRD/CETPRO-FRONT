@@ -43,7 +43,7 @@ const Mentorizados = ({mentorizados}) => {
                                         <table class="default">
          
                                                 <tr>
-                                                    <th>Obejtivos propuestos durante la última sesion</th>
+                                                    <th>Objetivos propuestos durante la última sesion</th>
                                                 </tr>
 
                                                 <tr>

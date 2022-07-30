@@ -96,7 +96,7 @@ const ModificarMentorizado  = ({modificarMentorizado}, props) => {
 
 
                             <div className="form-group">
-                                <label htmlFor="competencias">Competencias</label>
+                                <label htmlFor="competencias">Asignaturas cursadas</label>
                                 <input 
                                     type="text" 
                                     className="form-control form-control-lg" 
@@ -173,7 +173,7 @@ const ModificarMentorizado  = ({modificarMentorizado}, props) => {
                             </div>
 
                             <div className="form-group">
-                                <label htmlFor="nivel">Nivel</label>
+                                <label htmlFor="nivel">Ciclo actual</label>
                                 <input 
                                     type="text" 
                                     className="form-control form-control-lg" 

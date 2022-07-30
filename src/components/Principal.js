@@ -4,9 +4,7 @@ import "./styles.css"
 
 const Principal = () => {
     return (
-        <Fragment>
-            <h1 className="my-5">PAGINA PRINCIPAL</h1>
-
+        <Fragment>       
             <div>
                 <nav className='nav'>
                     <a href='/' className='site-title'>
