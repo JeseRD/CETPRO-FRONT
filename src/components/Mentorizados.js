@@ -61,7 +61,7 @@ const Mentorizados = ({mentorizados}) => {
                                     <div className="contacto py-3">
                                     <h2  className="mb-3">Cursos con Mentoría: </h2>
                                         <p>{mentorizado.competencias[0]}</p>
-                                        <p>{mentorizado.competencias[2]}</p>
+                                        <p>{mentorizado.competencias[1]}</p>
                                     </div>
                                 
                                    <Link to={`/modificar-mentorizado/${mentorizado._id}`} className="btn btn-success text-uppercase py-2 px-5 font-weight-bold">Actualizar</Link>
