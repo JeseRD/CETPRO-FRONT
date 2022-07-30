@@ -6,6 +6,31 @@ const Principal = () => {
         <Fragment>
             <h1 className="my-5">PAGINA PRINCIPAL</h1>
 
+            <div>
+                <nav className='nav'>
+                    <a href='/' className='site-title'>
+                        CETPRO
+                    </a>
+                    <ul>
+                        <li className='nav'>
+                            <a href="nosostros">Nosotros</a>
+                        </li>
+                        <li>
+                            <a href="/sedes">Nuestras Sedes</a>
+                        </li>
+                        <li>
+                            <a href="/especialidades">Especialidades</a>
+                        </li>
+                        <li>
+                            <a href="/contactenos">Contáctenos</a>
+                        </li>
+                        <li>
+                            <a href="/login">Iniciar sesion</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+
             <div className="container mt-5 py-5">
                 <div className="row">
                     <div className="col-12 mb-5 d-flex justify-content-center">
