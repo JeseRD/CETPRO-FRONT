@@ -7,6 +7,8 @@ import clienteAxios from './config/axios';
 import Principal from './components/Principal';
 import Mentores from './components/Mentores';
 import Mentorizados from './components/Mentorizados';
+import Login from './components/Login';
+import SesionIniciada from './components/SesionIniciada';
 import Hoja from './components/Hoja';
 import NuevoMentor from './components/nuevoMentor';
 import ModificarMentorizado from './components/modificarMentorizado';
@@ -64,6 +66,14 @@ function App() {
         <Route 
           exact path="/"
           component={Principal}
+        />
+        <Route 
+          exact path="/login"
+          component={Login}
+        />
+        <Route 
+          exact path="/sesionadmin"
+          component={SesionIniciada}
         />
         <Route 
           exact path="/mentores"

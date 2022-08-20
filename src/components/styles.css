@@ -2,8 +2,21 @@
     box-sizing:border-box;
 }
 
+#login{
+    background: url(./images/login.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 98vh;
+}
+
+#img_logo{
+    width: 150px;
+    height: 150px;
+}
+
 body {
     margin: 0;
+    padding-top: 0;
 }
 
 .nav {
@@ -40,3 +53,59 @@ body {
 .nav li.active {
     background-color: dimgrey;
 }
+
+/* styles.css */
+.row {
+    display: flex;
+    min-width: 510px;
+    min-height: 100px;
+  }
+.LateralSpace {
+    display: flex;
+    min-width: 210px;
+    min-height: 100px;
+  }  
+.rowMax {
+    
+    min-height: 100px;
+  }
+.col {
+    min-height: 150;
+    flex: 1;
+  }
+.box {
+    min-width: 610px;
+    min-height: 1000px;
+  }
+#zonePic1 {
+    background-color: white;
+    padding-top: 5rem;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#principal{
+    padding-bottom: 10rem;
+}
+
+header {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    z-index: 1;
+    
+}
+
+#root{
+    margin-top: 0;
+}
+
+#loginDiv{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+

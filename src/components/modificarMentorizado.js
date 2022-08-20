@@ -5,7 +5,8 @@ import clienteAxios from '../config/axios';
 
 const ModificarMentorizado  = ({modificarMentorizado}, props) => {
  
-    //OBSERVER PATTERN
+    //OBSERVER PATTERN (ahorrar lineas de codigo, no hay necesidad de instanciar objetos) "HOOKS" 
+    //Se generan solo los atributos que se necesitaran, no todos
     // Generar state como objeto
     const [nuevo,guardarnuevo] = useState({
 
