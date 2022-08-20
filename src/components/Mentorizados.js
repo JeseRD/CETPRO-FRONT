@@ -13,6 +13,7 @@ const Mentorizados = ({mentorizados}) => {
                 <div className="row">
                     <div className="col-12 mb-5 d-flex justify-content-center">
                         <Link to={'/'} className="btn btn-success text-uppercase py-2 px-5 font-weight-bold">Volver</Link>
+                        <Link to={'/'} className="btn btn-success text-uppercase py-2 px-5 font-weight-bold">Nuevo</Link>
                     </div>
                     
                     <div className="col-md-12 mx-auto">
